@@ -45,7 +45,7 @@ void quicksort(int list[], int left, int right) {
 
 int main() {
     int list[65];
-    int i;
+    int i,j;
     scanf("%d",&n);
     for(i=0; i<n; i++) {
         scanf("%d",&list[i]);
